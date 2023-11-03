@@ -1047,6 +1047,10 @@ M.style = function()
   highlight(0, "WindowPickerStatusLineNC", { link = "WinBar" })
   highlight(0, "WindowPickerWinBar", { link = "WinBar" })
   highlight(0, "WindowPickerWinBarNC", { link = "WinBar" })
+
+  -- Flash Plugin
+  highlight(0, "FlashLabel", { link = "NightflyRed" })
+  
 end
 
 return M
